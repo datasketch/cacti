@@ -1,0 +1,33 @@
+<nav class="p-4 flex flex-col text-space-crayola md:justify-between md:flex-row">
+  <div class="flex w-full items-start justify-between md:w-auto">
+    <a href="{{ .Site.BaseURL }}">
+      <img class="w-24" src='{{ "images/logo.png" | absURL }}' alt="">
+    </a>
+    <button id="menu-toggle" class="text-outrageous-orange cursor-pointer focus:outline-none md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-8 stroke-current" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <line x1="4" y1="6" x2="20" y2="6" />
+        <line x1="4" y1="12" x2="20" y2="12" />
+        <line x1="4" y1="18" x2="20" y2="18" />
+      </svg>
+    </button>
+  </div>
+  <div id="menu-links" class="hidden border-b flex-col py-4 space-y-2 md:border-none md:flex md:flex-row md:items-start md:space-y-0 md:space-x-6 md:py-0 lg:space-x-16">
+    <a href="" class="hover:text-castleton-green">About us</a>
+    <a href="" class="hover:text-castleton-green">Know how</a>
+    <a href="" class="hover:text-castleton-green">Increasing impact</a>
+    <a href="" class="hover:text-castleton-green">Members</a>
+    <a href="" class="hover:text-castleton-green">Events</a>
+    <div class="flex items-center space-x-4">
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <img src='{{ "icons/fb_black.svg" | absURL }}' alt="">
+      </a>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <img src='{{ "icons/tw_black.svg" | absURL }}' alt="">
+      </a>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <img src='{{ "icons/ig_black.svg" | absURL }}' alt="">
+      </a>
+    </div>
+  </div>
+</nav>
