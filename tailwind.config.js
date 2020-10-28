@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       colors: {
         'castleton-green': '#005a49',
+        'soft-white': '#fffdfd',
+        'denim-blue': '#3841ae',
       },
     },
   },

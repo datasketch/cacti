@@ -1,3 +1,45 @@
 {{ define "main" }}
-<p>Hola mundo</p>
+<div class="bg-castleton-green px-4 py-16 text-white">
+  <div class="w-full mx-auto lg:w-10/12">
+    <h2 class="font-bold text-5xl text-center">What we do</h2>
+    <div class="grid gap-16 mt-16 md:gap-4 md:grid-cols-3">
+      <div class="flex flex-col text-center items-center space-y-6">
+        <img src='{{ "icons/lightbulb.svg" | absURL }}' alt="">
+        <p class="w-64">Create a collective space for sharing experiences, inspiration, and ideas around the evolution of anti-corruption work.</p>
+      </div>
+      <div class="flex flex-col text-center items-center space-y-6">
+        <img src='{{ "icons/loop.svg" | absURL }}' alt="">
+        <p class="w-64">Create a common pool of resources to fuel our anti-corruption, transparency, accountability, and civic tech work.</p>
+      </div>
+      <div class="flex flex-col text-center items-center space-y-6">
+        <img src='{{ "icons/ballot.svg" | absURL }}' alt="">
+        <p class="w-64">Document failures and successes in the fight against corruption, to guide our peers in their own work.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!---->
+<div class="bg-soft-white px-4 py-16 text-denim-blue">
+  <div class="w-full mx-auto lg:w-10/12">
+    <p class="mx-auto max-w-sm text-center text-xl leading-tight">We are a team of civic advocates focused on new ways to proactively detect, address, and prevent corruption.</p>
+    <h2 class="font-bold text-6xl text-center mt-12">Be part of our comminuty</h2>
+    <div class="grid gap-16 mt-20 md:gap-4 md:grid-cols-3">
+      <div class="flex flex-col text-center items-center space-y-6">
+        <img src='{{ "icons/headphones.svg" | absURL }}' alt="">
+        <p class="w-64">Listen to our podcast with new episodes every month!</p>
+        <a href="#" class="bg-denim-blue text-white px-3 py-2">Listen now</a>
+      </div>
+      <div class="flex flex-col text-center items-center space-y-6">
+        <img src='{{ "icons/airplane.svg" | absURL }}' alt="">
+        <p class="w-64">Join our Telegram group to participate in the conversation.</p>
+        <a href="#" class="bg-denim-blue text-white px-3 py-2">Join group</a>
+      </div>
+      <div class="flex flex-col text-center items-center space-y-6">
+        <img src='{{ "icons/clipboard.svg" | absURL }}' alt="">
+        <p class="w-64">Tell us about yourself and get to know the community.</p>
+        <a href="#" class="bg-denim-blue text-white px-3 py-2">Fill this form</a>
+      </div>
+    </div>
+  </div>
+</div>
 {{ end }}
